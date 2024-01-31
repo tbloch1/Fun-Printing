@@ -9,12 +9,12 @@ By default, printing should be identical to normal python printing
 from fun_print import print
 print('Hello, World!')
 ```
-With `fun=True` the function maps the characters to 8-bit representation.
-By default thishas positive space take by 'X' and negative space by a
-space(' ').
 ```
 Hello, World!
 ```
+With `fun=True` the function maps the characters to 8-bit representation.
+By default thishas positive space take by 'X' and negative space by a
+space(' ').
 ``` python
 print('Hello, World!', fun=True)
 ```
